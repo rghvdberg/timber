@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Timber" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Timber" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-graphics -lsfml-window -lsfml-audio -lsfml-network -lsfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Timber" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="fonts/KOMIKAP_.ttf" />
+		<Unit filename="graphics/axe.png" />
+		<Unit filename="graphics/background.png" />
+		<Unit filename="graphics/bee.png" />
+		<Unit filename="graphics/branch.png" />
+		<Unit filename="graphics/cloud.png" />
+		<Unit filename="graphics/log.png" />
+		<Unit filename="graphics/player.png" />
+		<Unit filename="graphics/rip.png" />
+		<Unit filename="graphics/tree.png" />
+		<Unit filename="graphics/tree2.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sound/chop.wav" />
+		<Unit filename="sound/death.wav" />
+		<Unit filename="sound/out_of_time.wav" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
